@@ -26,6 +26,7 @@ def get_epgs_zhongshu(channel, channel_id, dt, func_arg):
         'ban':0,
         }
         return ret
+    starttime = None
     for r in rs:
         try:
             starttime = datetime.datetime.strptime('%s%02d%02d%s' % (dt.year, int(r[0]), int(r[1]), r[2]),'%Y%m%d%H:%M')
