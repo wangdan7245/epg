@@ -1,3 +1,6 @@
+基于项目 [supzhang/epg](https://github.com/supzhang/epg), 添加了docker 支持
+
+----
 # 老张的EPG  
 * 基于`python3`及`django4`的节目表数据抓取及发布系统
 * 本人并非专业，很多内容只是为实现功能，可能会有很多BUG，见谅。
