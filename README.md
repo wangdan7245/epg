@@ -1,5 +1,8 @@
 基于项目 [supzhang/epg](https://github.com/supzhang/epg), 添加了docker 支持
 
+epg/epg/settings.py 
+添加 CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1','https://example.com'] 配置，以解决通过nginx反代的权限问题
+
 ----
 # 老张的EPG  
 * 基于`python3`及`django4`的节目表数据抓取及发布系统
